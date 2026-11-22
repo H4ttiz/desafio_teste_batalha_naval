@@ -1,0 +1,36 @@
+
+> desafio_teste_batalha_naval@1.0.0 coverage
+> node --test --experimental-test-coverage
+
+✔ CT01 - frota possui os quatro navios de tamanhos exigidos (0.731417ms)
+✔ CT02 - aceita posicionamento horizontal na ultima coluna permitida (0.044583ms)
+✔ CT03 - aceita posicionamento vertical na ultima linha permitida (0.031958ms)
+✔ CT04 - rejeita navios fora do tabuleiro sem posicionar parcialmente (0.151208ms)
+✔ CT05 - rejeita sobreposicao, duplicidade, tipo e direcao invalidos (0.0615ms)
+✔ CT06 - tiros distinguem agua, acerto e afundamento (0.122ms)
+✔ CT07 - rejeita tiros repetidos e coordenadas invalidas (0.08ms)
+✔ CT08 - exige frota completa e impede reposicionamento apos tiro (0.043ms)
+✔ CT09 - destruir as 14 casas encerra a frota (0.065291ms)
+✔ CT10 - exige duas frotas prontas, jogador valido e alternancia (0.111583ms)
+✔ CT11 - partida completa declara vencedor e bloqueia novos tiros (0.101292ms)
+✔ CT12 - acerto sem afundamento tambem alterna a vez entre os jogadores (0.354208ms)
+✔ CT13 - navios adjacentes sao permitidos lado a lado (0.052ms)
+✔ CT14 - agua retornada por BatalhaNaval mantem shape {resultado,navio} (0.046875ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 40.565958
+ℹ start of coverage report
+ℹ ------------------------------------------------------------------
+ℹ file              | line % | branch % | funcs % | uncovered lines
+ℹ ------------------------------------------------------------------
+ℹ src               |        |          |         | 
+ℹ  batalha-naval.js | 100.00 |   100.00 |  100.00 | 
+ℹ ------------------------------------------------------------------
+ℹ all files         | 100.00 |   100.00 |  100.00 | 
+ℹ ------------------------------------------------------------------
+ℹ end of coverage report
